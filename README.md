@@ -21,7 +21,7 @@
 
 
 # Список микросервисов
-### service_process
+### [service_process](https://github.com/carpetti/service_process)
   Основной сервис для обработки сложных бизнес-процессов. Поддерживает следующие процессы:
   - Создание связок товаров между собой.
   - Отложенное создание сущности-связи с маркетплейсами (сохранение внешних ID и других данных).
@@ -36,36 +36,32 @@
     + Генерация индивидуальных документов для каждого товара.
   - Сбор и генерация отчётов, метрик, статистики и каналов взаимодействия между микросервисами.
 
-### service_mp
+### [service_mp](https://github.com/carpetti/service_mp)
   Обрабатывает взаимодействие с маркетплейсами:
   - Синхронизация данных о товарах и заказах.
   - Публикация данных из service_process через очереди RabbitMQ.
   - Сохранение чеков и документов через service_file.
 
-### service_crm
+### [service_crm](https://github.com/carpetti/service_crm), service_web
   Отвечает за обработку клиентских данных:
   - Управление пользовательскими данными, заказами и историями взаимодействий.
   - Взаимодействие с service_persist для хранения данных.
-
-### service_web, service_crm
-  Сервис для управления данными веб-сайта:
   - Обработка пользовательских запросов.
-  - Взаимодействие с service_persist для получения информации о товарах и заказах.
 
-### service_file
+### [service_file](https://github.com/carpetti/service_file)
   Управление файлами:
   - Обработка файлов для хранения в облаке или локальном файловом хранилище.
   - Генерация документов и YML-выгрузок.
 
-### service_provider
+### [service_provider](https://github.com/carpetti/service_provider)
   Работа с поставщиками:
   - Получение данных о товарах и их обновление.
 
-### service_persist
+### [service_persist](https://github.com/carpetti/service_persist)
   Основной сервис для работы с базой данных:
   - мс entiy.
 
-### service_sender
+### [service_sender](https://github.com/carpetti/service_sender)
   Отправка уведомлений:
   - Уведомления через Telegram, email и VK.
 
@@ -83,7 +79,7 @@
 - package_yml: Генерация YML-выгрузок.
 
 ### Системные компоненты
-- system_queue: RabbitMQ - брокер.
+- system_queue: RabbitMQ - брокер. 
 - system_proxy: Envoy.
 - system_consul: discovery.
 - system_cache: Redis.
