@@ -1,8 +1,9 @@
 # Carpetti
 ![UML Diagram](https://www.plantuml.com/plantuml/png/dLXVQzH047yFv3iivuEAz4NmfTHIFH4VB5IBb89Gqjms3Sq_DqdRGmGL5C47GLzyyZEKQl6ijlqAUz_8sTsOsztC9V4EZcHdV_kRcTsPsRbRomkF5MKSkKv-42QPnxoOCEeNNX94T6Lbb-vxXs7ALbV9IzSXy65fcOo6AKie8xVlkCuhrt6TwuH_urVJr_oC_u3lR_XUy0a_8_mFFCvXudBwXf_1yvHFuEsIdxfEhOOCSieEGv_kP2prQPuFY9UJIhQXH6HbPJtqMLf9mPvhzx8i2dsl2DC49OipdMSzMu32Px7ECMJn0YH7T5SdsQAx2v3iXH7LMHx2U04QsE33S4IPjSDIjWWTPNcO5mQR4Yr0bjF4icnJIhgesiBlYf_mSmYyjusGopp_m0lepZYEfCfgl1r7e6z33OIgW7bZT26ZMQglV0hZdalB8ZIKFeDnpwLmW8MXTaC8UYxsFN-VFazkvEEyeB4QtjJ9XaBIaspVIqPLJ5QYHrBIS_cBafQQBN9esF94IFewbYPxOM1u8YNOSXakNw0WoPYOVeGm4P4p_Q2YPlh934vb7cpxyHYifSbXEbPcgfaDCG5gDkL8Q8d2OB_OZKgAyO2XUHa1aNhHcOPIyXzKrM4oEWfpWwWwn9uyKHe4b07HGm0aXSxqM4xre88I1mH942R7v1QvbmHbv375T2JBNHT1LVY1PEZ5SC5uLIZKnHyba4VvcV-499_0JNCfi__Nz0qSxQdCV_lI8NpIg0b6w2-DqgDaQLNVIQ76kel-eRJCxyA85E_2o5Jk0bKsjODK9dQXP8PrwfE9f6q2NAHp87C1bZbDWEbvSzwqj3bld41pMcr-3H3NUEkkOW3JHmHXEOaWJ2yHWEac0Z3yHEOjHqMhqUee1Z0THH2MemZ2T1G1c8uY0CDHPDvoL7P3xOvW4CiJ36AwWY6CpCO0st5arX3LRRMREm_Mp6mKrYWbACekIYYeEgiPhchmEkp7KRRvEAgolePLVM2xHXnaASH1vcxXc7eREgyS0cyNig6ua9Y9k8Oc4d86mnCXSft1C0hXkXtKUk2YT9qZBTIr1WDiqxgD6b3NWTRvBK6Cr0pp3D1icmEnZstmuFwWvPhKSgCByoy8Et6sHJXC7MKNQZsRVmcgSLl-cYkxSPRbsctL6s7i948mCng2zIk_a97t7HgXa-bxqU4I_dtM_qxV6Vql_pL_kxG-jGEaEaVKHcpU24iCiDN82mjW55uKqJmG56M5DWgoAeI9SPs81W0W4Ts3GxmhFwxJ-16xJ7I10Cn-gYoJwftSM4z7PKHlYlcw1rucwfKCqpXB4oWZCprKr3kXNrYo1a_vvyvV)
 
-#
-#Архитектура
+
+
+# Архитектура
 Проект построен на основе микросервисной архитектуры, каждый сервис отвечает за определённый функционал и взаимодействует с остальными через gRPC, Consul и очереди сообщений (RabbitMQ). Все сервисы логируют информацию через Fluent и используют Consul для определения адресов, что позволяет масштабировать их горизонтально.
 
 ### Основные компоненты и технологии:
@@ -17,7 +18,8 @@
 - Клиенты обращаются к Nginx, который маршрутизирует запросы к соответствующим микросервисам (например, service_crm или service_web) через Envoy и gRPC.
 - Основной поток данных направляется в service_persist для работы с базой данных.
 
-#
+
+
 # Список микросервисов
 ### service_process
   Основной сервис для обработки сложных бизнес-процессов. Поддерживает следующие процессы:
@@ -67,7 +69,8 @@
   Отправка уведомлений:
   - Уведомления через Telegram, email и VK.
 
-#
+
+
 # Модули и пакеты
 ### Общие пакеты
 - package_config: Конфигурационные данные для всех сервисов pb.
@@ -85,6 +88,8 @@
 - system_consul: discovery.
 - system_cache: Redis.
 - system_logger: Fluent - логирование.
+
+
 
 # Потоки данных
 ### Клиентский поток
