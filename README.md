@@ -89,6 +89,9 @@
 - system_cache: Redis.
 - system_logger: Fluent - логирование.
 
+# Пакеты
+
+![UML Diagram](https://www.plantuml.com/plantuml/png/SoWkIImgAStDuOekI4pEJanFZIyjoSo9LT3LjLE02oNdvwLbfiVYLPEHc9UIanhBXL1Kb5gGJyWWB6eAYl9Byl4hAInDBKt5hmJiGYJ7GBHWTmr2LN9YSWPXLJ2lmWKgSu5sEQJcfO024W00)
 
 
 # Потоки данных
