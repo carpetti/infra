@@ -91,7 +91,7 @@
 
 # Пакеты
 
-![UML Diagram](https://www.plantuml.com/plantuml/png/SoWkIImgAStDuUMABaXCpavCJuqlBSdCSIWpr3FICuXLqDMrKu3B9EVdfMMcm-I8qfAHc9UIauhGWgIfABKWdqHxS6ifACeloIT9Hs5fQcagIJgGVOdY4nIZy7i5ILToOd86wRegSv7Su92QbmACF000)
+![UML Diagram](https://www.plantuml.com/plantuml/png/SoWkIImgAStDuUMABaXCpavCJuqlBSdCSIWpr3FICunLqDMrKu3B9EVdfMMcm-I8qfAHc9UIamgHCm1gGT9Kb5gGJw8zkBKK5EMNv9Eaex0qjJIL91t8laJn2OfH-Bs2f2ivCJc3T5sLkJc8q7H8pKi1HXu0)
 *1.2 - minor update*
 
 # Потоки данных
