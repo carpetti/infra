@@ -69,7 +69,10 @@
   Отправка уведомлений:
   - Уведомления через Telegram, email и VK.
 
-### [process_adapter](https://github.com/carpetti/process_provider)
+### [service_sender](https://github.com/carpetti/service_sender)
+  Модерация товаров через AI:
+  - Метод модерации товара по указанному промпту.
+  - Метод создания описания товара из набора характеристик.
 
 # Модули и пакеты
 ### Общие пакеты
