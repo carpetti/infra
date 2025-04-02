@@ -69,7 +69,7 @@
   Отправка уведомлений:
   - Уведомления через Telegram, email и VK.
 
-### [service_sender](https://github.com/carpetti/service_sender)
+### [service_moderation](https://github.com/carpetti/service_moderation)
   Модерация товаров через AI:
   - Метод модерации товара по указанному промпту.
   - Метод создания описания товара из набора характеристик.
