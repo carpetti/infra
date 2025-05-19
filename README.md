@@ -93,3 +93,6 @@
 - system_logger: Fluent - логирование.
 
 > ACF-FEKOZ-2024-2025 | OCCWO
+
+Репозиторий экосистемы (экземпляр): https://github.com/OCCWO/infra
+
