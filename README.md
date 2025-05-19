@@ -63,15 +63,14 @@
   - Получение данных о товарах и их обновление.
 
 ### [service_persist](https://github.com/carpetti/service_persist)
-  Основной сервис для работы с базой данных:
-  - мс entiy.
+  Основной сервис для работы с базой данных (мс entity).
 
 ### [service_sender](https://github.com/carpetti/service_sender)
   Отправка уведомлений:
   - Уведомления через Telegram, email и VK.
 
 ### [service_moderation](https://github.com/carpetti/service_moderation)
-  Модерация товаров через AI:
+  Модерация товаров через AI (Gemeni \ GPT o4-mini):
   - Метод модерации товара по указанному промпту.
   - Метод создания описания товара из набора характеристик.
 
@@ -93,4 +92,4 @@
 - system_cache: Redis.
 - system_logger: Fluent - логирование.
 
-> ACF-FEKOZ-2024-2025
+> ACF-FEKOZ-2024-2025 | OCCWO
