@@ -1,4 +1,5 @@
-# Carpetti
+# Новая инфраструктура:
+# [https://github.com/OCCWO/infra/blob/main/README.md](https://github.com/OCCWO/infra/blob/main/README.md)
 
 ## Пакеты
 ![UML Diagram](https://www.plantuml.com/plantuml/png/SoWkIImgAStDuUMABaXCpavCJuqlBSdCSIWpr3FICubLqDMrKu3B9EVdfMMcG-ICOedIaf6ObvAJYj22fAaejI2VH7jmQoaeoY_99qb7OMbgQIf9Ef1zYU8J5AFmUmL9Lt9YSWRfkYfpeMum08exfEQb02CF0000)
